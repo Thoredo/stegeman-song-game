@@ -13,5 +13,5 @@ fetch("songs.json")
         }
 
         document.getElementById("title").innerText =
-            `${song.Artist} - ${song.Title}`;
+            `${song.artist} - ${song.title}`;
     });
